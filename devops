@@ -1,3 +1,5 @@
+
+
 git init
 git config --global user.name "Polarapu Prasad"
 git config --global user.email "devopstraining2015@gmail.com"
@@ -47,6 +49,77 @@ git commit -m "commit from name"
 git status
 git log
 git push
+
+rm -rf file-name
+ls
+git status
+git add file-name
+git commit -m "label"
+git push
+
+
+
+----------------------------------------------------------------------
+
+git clone https://github.com/polarapu/batch60.git
+ls
+cd batch60
+touch name
+git add .
+git commit -m "msg"
+git push
+git pull --rebase
+
+
+LOG's
+---------
+git log
+git log -n
+git log --oneline
+git log --oneline -n
+git log --author=naresh
+git log --author=naresh -n
+git log --author=naresh --oneline
+git log --author=naresh --oneline -n 
+git log --since=yy-mm--dd
+or
+git log --after=yy-mm--dd
+
+git log --until=yy-mm-dd
+or
+git log --before=yy-mm-dd
+
+git log --since=yy-mm-dd --until=yy-mm-dd
+or
+git log --after=yy-mm-dd --before=yy-mm-dd
+
+git log --after="yy-mm-dd hh:mm" --before="yy-mm-dd hh:mm"
+
+git log -- file-name
+
+git log --grep="label"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
