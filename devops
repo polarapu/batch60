@@ -106,7 +106,55 @@ git log --grep="label"
 
 
 
+------
+git tag
+git tag tag-name
+git show tag-name
+git tag -d tag-name
+git tag tag-name cid
+git push origin tag-name
+git push --tags
+git push origin -d tag-name
 
+git checkout tag-name
+ls
+
+STASH
+----------
+git stash list
+git stash save stash1
+git stash show stash-name
+
+POP, APPLY, DROP
+--------------------------
+
+POP: (cut)
+------
+git stash pop
+git stash pop stash@{x}
+
+APPLY:  (copy)
+----------
+git stash apply
+git stash apply stash@{x}
+
+DROP  (delete)
+-------
+git stash drop
+git stash drop stash@{x}
+
+
+.gitignore
+-------------
+file1
+file2
+file3
+
+
+AMEND
+-----------
+
+git commit --amend -m "label" 
 
 
 
